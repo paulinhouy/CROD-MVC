@@ -1,0 +1,51 @@
+# Node modules
+node_modules
+task_manager
+
+
+
+# Arquivos de log
+*.log
+
+# Arquivos de ambiente
+.env
+
+# Configurações de IDE e editor
+.vscode/
+.idea/
+
+# Diretórios de build e dependências temporárias
+dist/
+tmp/
+
+# Arquivos de banco de dados locais (caso você tenha um banco de dados local em desenvolvimento)
+*.sqlite
+*.db
+
+# Arquivos gerados pelo Sequelize (como arquivos de migração se você optar por versioná-los)
+src/migrations/
+
+# Sistema de cache
+npm-debug.log
+yarn-error.log
+
+# Outras configurações de IDE e editor
+.DS_Store
+*.swp
+*.swo
+
+echo "node_modules/
+*.log
+.env
+.vscode/
+.idea/
+dist/
+tmp/
+*.sqlite
+*.db
+src/migrations/
+npm-debug.log
+yarn-error.log
+.DS_Store
+*.swp
+*.swo" > .gitignore
