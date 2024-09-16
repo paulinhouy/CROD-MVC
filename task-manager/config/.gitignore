@@ -1,6 +1,12 @@
-# Node modules
 node_modules
-task_manager
+
+
+# Ou se você quer ser mais específico:
+/task-manager/node_modules/validator/
+/task-manager/node_modules/vary/
+/task-manager/node_modules/wkx/
+/task-manager/node_modules/xtend/
+
 
 
 
@@ -49,3 +55,15 @@ yarn-error.log
 .DS_Store
 *.swp
 *.swo" > .gitignore
+
+
+
+
+
+
+
+
+
+
+
+
